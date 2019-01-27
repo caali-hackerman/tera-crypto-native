@@ -1,6 +1,6 @@
 {
 	"targets": [{
-		"target_name": "tera-crypto-native",
+		"target_name": "tera_crypto_native",
 		"sources": ["main.cpp"]
 	}]
 }

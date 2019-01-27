@@ -10,6 +10,11 @@
 #include <node_buffer.h>
 #include <node_object_wrap.h>
 
+// Since GCC doesn't have __forceinline
+#ifndef _WIN32
+#define __forceinline __attribute__((always_inline))
+#endif
+
 namespace {
 	using namespace v8;
 	using namespace node;
