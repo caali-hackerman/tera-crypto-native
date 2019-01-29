@@ -6,5 +6,8 @@
 		"type": "git",
 		"url": "git+https://github.com/caali-hackerman/tera-crypto-native.git"
 	},
+	"scripts": {
+	  "postinstall": "postinstall.js"
+	},
 	"author": "Pinkie Pie"
 }
